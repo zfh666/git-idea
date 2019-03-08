@@ -17,6 +17,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringbootJpaApplication {
 
 	public static void main(String[] args) {
+		System.out.println("dev代码");
 		System.out.println("master代码");
 		SpringApplication.run(SpringbootJpaApplication.class, args);
 	}
